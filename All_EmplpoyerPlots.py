@@ -96,7 +96,12 @@ for employer_short in df_original['shortname'].unique():
             ax.yaxis.set_major_formatter(mtick.StrMethodFormatter('${x:,.0f}'))
 
         fig.supylabel('Maximum Annual Salary ($)')
-        fig.suptitle(f'{employer_long} ({employer_short})\nMaximum Pay (top increment) for each Pay Classification, as of 13 March 2026', fontsize=16, fontweight='bold')
+        fig.suptitle(f"""
+                    {employer_long} ({employer_short})
+                    Maximum Pay (top increment) for each Pay Classification
+                    Relative to all APS Employers, as of 13 March 2026
+                    """,
+                    fontsize=16, fontweight='bold')
         plt.tight_layout()
         plt.savefig(f'MembersUnited_Plots/{employer_short}_max_pay_boxplots.png', bbox_inches='tight', dpi=300)
     except Exception as e:
