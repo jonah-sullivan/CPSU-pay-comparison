@@ -51,7 +51,7 @@ for employer_short in df_original['shortname'].unique():
 
             #add percentile rank
             try:
-                pct = percentileofscore(df[[c]].values.reshape(-1), employer_values[c].values, kind='rank', nan_policy ='omit').item()
+                pct = percentileofscore(df[[c]].values.reshape(-1), employer_values[c].values, kind='weak', nan_policy ='omit').item()
                 pct = format_ordinal(int(round(pct)))
 
                 ax.plot(
