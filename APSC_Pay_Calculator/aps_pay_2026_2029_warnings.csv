@@ -1,0 +1,20 @@
+﻿Sheet,Warning
+CCA,Missing APS1 maximum
+CCA,Missing APS2 maximum
+DPS,Classification alias applied: PEL treated as EL
+DPS,Classification alias applied: PSL treated as APS
+FWO,APS5: no Max marker; used top increment APS5.3 (row 38)
+FWO,EL1: no Max marker; used top increment EL1.3 (row 46)
+NAA,APS3: no Max marker; used top increment APS3.4 (row 33)
+NACC,APS3: no Max marker; used top increment APS3.4 (row 32)
+NFSA,APS3: no Max marker; used top increment APS3.4 (row 33)
+NGA,Classification alias applied: NGA LEVEL treated as APS
+NPGA,APS4: no Max marker; used top increment APS4.4 (row 37)
+OIGAC,APS1: no Max marker; used top increment APS1.3 (row 24)
+OIGAC,APS4: no Max marker; used top increment APS4.3 (row 35)
+OIGAC,APS5: no Max marker; used top increment APS5.3 (row 38)
+OPH,APS1: no Max marker; used top increment APS1.3 (row 24)
+OPH,APS2: no Max marker; used top increment APS2.3 (row 27)
+OPH,APS5: no Max marker; used top increment APS5.4 (row 40)
+TEQSA,APS6: no Max marker; used top increment APS6.4 (row 39)
+WGEA,APS2: no Max marker; used top increment APS2.3 (row 27)
